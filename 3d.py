@@ -43,7 +43,7 @@ def carregar_imagem_base64(caminho):
         return base64.b64encode(f.read()).decode()
 
 login_bg = carregar_imagem_base64(
-    r"J:\SETOR LOGÍSTICA\SETOR AVIAÇÃO\SETOR TCL\COLABORADORES\DAVI NUNES\21 - cargas 3D\telalogin.png"
+    "telalogin.png"
 )
 
 USUARIOS = {
@@ -314,7 +314,7 @@ def carregar_imagem_base64(caminho):
         return base64.b64encode(f.read()).decode()
 
 bg_img = carregar_imagem_base64(
-    r"J:\SETOR LOGÍSTICA\SETOR AVIAÇÃO\SETOR TCL\COLABORADORES\DAVI NUNES\21 - cargas 3D\tela de fundo.png"
+    "tela de fundo.png"
 )
 st.markdown("""
 <style>
