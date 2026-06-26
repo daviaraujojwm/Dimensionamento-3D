@@ -44,7 +44,7 @@ def carregar_imagem_base64(caminho):
 
 login_bg = carregar_imagem_base64("telalogin.png")
 
-)
+
 
 USUARIOS = {
     "admin": "1234",
