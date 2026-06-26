@@ -89,7 +89,7 @@ if not st.session_state.logado:
     }}
 
     .login-title {{
-        font-size: 54px;
+        font-size: 42px;
         font-weight: 900;
         color: white;
         text-align: center;
@@ -100,7 +100,7 @@ if not st.session_state.logado:
         text-align: center;
         color: rgba(255,255,255,0.92);
         font-size: 18px;
-        margin-bottom: 34px;
+        margin-bottom: 18px;
         line-height: 1.45;
     }}
 
@@ -111,7 +111,7 @@ if not st.session_state.logado:
 
 .stTextInput {{
     width: 100% !important;
-    margin-bottom: 22px !important;
+    margin-bottom: 10px !important;
 }}
 
 div[data-testid="stTextInputRootElement"] {{
@@ -201,7 +201,7 @@ div[data-testid="stButton"] {{
 
     width: 100% !important;
 
-    margin-top: 28px !important;
+    margin-top: 12px !important;
 
     display: flex !important;
 
