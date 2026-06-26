@@ -42,8 +42,8 @@ def carregar_imagem_base64(caminho):
     with open(caminho, "rb") as f:
         return base64.b64encode(f.read()).decode()
 
-login_bg = carregar_imagem_base64(
-    "telalogin.png"
+login_bg = carregar_imagem_base64("telalogin.png")
+
 )
 
 USUARIOS = {
@@ -313,8 +313,8 @@ def carregar_imagem_base64(caminho):
     with open(caminho, "rb") as f:
         return base64.b64encode(f.read()).decode()
 
-bg_img = carregar_imagem_base64(
-    "tela de fundo.png"
+bg_img = carregar_imagem_base64("tela de fundo.png")
+
 )
 st.markdown("""
 <style>
