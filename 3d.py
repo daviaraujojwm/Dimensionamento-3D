@@ -315,7 +315,6 @@ def carregar_imagem_base64(caminho):
 
 bg_img = carregar_imagem_base64("tela de fundo.png")
 
-)
 st.markdown("""
 <style>
 /* ============================
