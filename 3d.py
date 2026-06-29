@@ -899,7 +899,7 @@ if "cargas" not in st.session_state:
 st.markdown(f"""
 <div class="header-jwm">
     <div class="titulo-jwm">
-        Dimensionamento de Veículos - 3D
+        
     </div>
 </div>
 """, unsafe_allow_html=True)
